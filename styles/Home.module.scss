@@ -12,21 +12,7 @@
   align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
 
 .title a {
   color: #0070f3;
@@ -47,7 +33,7 @@
 
 .title,
 .description {
-  text-align: center;
+  text-align: top;
 }
 
 .description {
@@ -56,33 +42,19 @@
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
 
 .card {
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 4.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 500px;
+  padding: horizontal;
+  align-items: center;
 }
 
 .card:hover,
@@ -106,6 +78,135 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+.signin {
+  background-color: aqua;
+  margin: 0.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  
+}
+.signin a {
+  background-color: rgb(183, 245, 142);
+  margin: 1rem;
+  padding: 0.25rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  font: bold;
+  font-size: larger;
+  align-items:  center 
+}
+.signup {
+  background-color: rgb(161, 240, 161);
+  margin: 0.25rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+}
+.signup a {
+  background-color: rgb(35, 235, 28);
+  margin: 1rem;
+  padding: 0.25rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  font: bold;
+  font-size: larger;
+  align-items:  center;
+ 
+ }
+.signin PhoneInput {
+  padding: 0.25rem;
+  align-content: left;
+
+}
+.forgot {
+  margin-right: auto;
+}
+.carda {
+  margin: 1rem;
+  padding: 3.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 500px;
+  padding: horizontal;
+  justify-items: left; 
+}
+.student {
+  margin: 0.5rem;
+  padding: 2.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+  padding: horizontal;
+  align-items: center; 
+}
+.carda:hover,
+.carda:focus,
+.carda:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+.student:hover,
+.student:focus,
+.student:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+.sta {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.teacher {
+  margin: 0.5rem;
+  padding: 2.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+  padding: horizontal;
+  align-items: center; 
+}
+.administrator {
+  margin: 0.5rem;
+  padding: 2.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+  padding: horizontal;
+  align-items: center; 
 }
 
 @media (max-width: 600px) {
